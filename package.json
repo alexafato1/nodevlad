@@ -1,0 +1,28 @@
+{
+  "name": "nodevlad",
+  "version": "1.0.0",
+  "description": "Node JS Course for youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexafato1/nodevlad.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexafato1/nodevlad/issues"
+  },
+  "homepage": "https://github.com/alexafato1/nodevlad#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
