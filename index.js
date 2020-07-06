@@ -1,7 +1,9 @@
+const http = require('http')
 
-const chalk = require('chalk')
-const text = require('./data')
+const server = http.createServer( (req, res) => {
+    res.end( "Hello people")
+})
 
-console.log(chalk.blue(text))
-
-console.log(__dirname)
+server.listen(3000, () => {
+    console.log('Servere has been started..')
+})
